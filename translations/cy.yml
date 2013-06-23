@@ -1,0 +1,46 @@
+blodau:
+  blodau: "Blodau'r Cwm"
+  tagline: "Blodau at pob achlysur."
+  eflorist: "Mae Blodau'r Cwm yn rhan o cymuned eFlorist."
+  tel: 'Ffôn'
+  shop: 'Siop'
+
+nav:
+  home: 'Hafan'
+  services: 'Gwasanaethau'
+  gallery: 'Lluniau'
+  contact: 'Gwybodaeth'
+
+index:
+  intro: "Mae tîm Blodau’r Cwm yn gyfeillgar ac yn ymgynghorol, rydym yn hapus i helpu. Odi chi yn chwilio am deyrnged i angladd neu eisiau addirno eglwys, capel neu gwesti erbyn priodas? Rydym yn arbennig yn creu blodau unigol a prydferth i angladdau, priodasau neu am achlysur arall. Galwch mewn i weld ni!"
+  history: "Sefydlwyd Blodau’r Cwm dros 20 flynedd yn ol. Fe fedrwn wneud blodau at bob achlusur a rydym yn arbennig mewn gosodiaudau o bob math, does dim gwahaniaeth pa mor unigol y cais, fe fedrwn fod o help pob amser."
+
+services:
+  birthday: 'Penblwydd'
+  engagement: 'Dyweddiad'
+  sympathy: 'Cydymdeimlad'
+  wedding: 'Priodas'
+  new-baby: 'Babi Newydd'
+  get-well: 'Brysiwch Wella'
+  thank-you: 'Diolch'
+  and-more: '…a mwy.'
+
+page-services:
+  delivery: "Rydym yn gallu dosbarthu dros Sir Caerfyrddin ac oes mae eisiau rydym yn gallu dosbarhu i llefydd pellach drwy defnyddio ein cydweithiwr yn eFlorist."
+  pay: "Mae pobol yn gallu archebu dros y ffon a rydyn yn cymryd cardiau poblogedd."
+
+page-gallery:
+  intro: "Neud siwr i edrych yn nol ar y tydalen hon achos rydym yn ychwanegu lluniau yn aml."
+  contact-us: "Rydym yn gwahoddi ymweliadau i'r siop i trafod pob cais unigryw. <a href='/cy/contact/'>amserau agor</a>"
+
+page-contact:
+  out-of-ours: 'Tu allan oriau'
+  opening-times: 'Amserau Agor'
+  'closed': 'Ar Gau'
+  monday: 'Dydd Llun'
+  tuesday: 'Dydd Mawrth'
+  wednesday: 'Dydd Mercher'
+  thursday: 'Dydd Iau'
+  friday: 'Dydd Gwener'
+  saturday: 'Dydd Sadwrn'
+  sunday: 'Dydd Sul'

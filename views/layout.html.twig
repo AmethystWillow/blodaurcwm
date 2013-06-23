@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Blodau'r Cwm :: Buy flowers at this a family run business in Cross Hands, Llanelli, Carmarthenshire.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Blodau'r Cwm is a local florists based in Cross Hands, Llanelli specialising in flowers, arrangements and gifts for all occasions.">
+    <meta name="author" content="Blodau'r Cwm">
+
+    <!-- Le styles -->
+    <link rel="stylesheet" type="text/css" href="/Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/Bootstrap/css/tweaks.css">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body data-spy="scroll" data-target=".bs-docs-sidebar" data-twttr-rendered="true">
+<div id="wrapper">
+    <div id="header-wrap" class="container-fluid">
+        <div id="masthead"></div>
+        <div id="head" class="row-fluid">
+            <div id="head-inner">
+                <div class="span7">
+                    <h1>{{ 'blodau.blodau'|trans }}</h1>
+                    <p><em>{{ 'blodau.tagline'|trans }}</em></p>
+                </div>
+                <div id="head-address" class="span5">
+                    <p>Blodau'r Cwm,<br />
+                        24 Llandeilo Road,<br />
+                        Cross Hands,<br />
+                        Llanellli. <br />
+                        SA14 6NA.</p>
+
+                    <p>{{ 'blodau.tel'|trans }}: 01269 831030</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar navbar-static-top">
+        <div class="navbar-inner">
+            <div class="container" style="width: auto;">
+                <ul class="nav" role="navigation">
+                    <li><a href="/{{ app.request.locale }}/">{{ 'nav.home'|trans }}</a></li>
+                    <li><a href="/{{ app.request.locale }}/services">{{ 'nav.services'|trans }}</a></li>
+                    <li><a href="/{{ app.request.locale }}/gallery">{{ 'nav.gallery'|trans }}</a></li>
+                    <li><a href="/{{ app.request.locale }}/contact">{{ 'nav.contact'|trans }}</a></li>
+                    <li class="dropdown">
+                        <a href="#" id="drop1" role="button" class="dropdown-toggle" data-toggle="dropdown">Language | Iaith<b class="caret"></b></a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="drop2">
+                            <li><a tabindex="-1" href="{{ path(app.request.get('_route'), app.request.get('_route_params')|merge({'_locale': 'en'})) }}">English</a></li>
+                            <li><a tabindex="-1" href="{{ path(app.request.get('_route'), app.request.get('_route_params')|merge({'_locale': 'cy'})) }}">Cymraeg</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    {% block body %}
+    {% endblock %}
+
+    <div id="push"></div>
+</div>
+</div>
+<footer>
+    <div class="container-fluid">
+        <hr />
+        <div class="row-fluid">
+            <div id="about" class="span3">
+                <h1>{{ 'blodau.blodau'|trans }}</h1>
+                <p>{{ 'blodau.eflorist'|trans }}</p>
+            </div>
+
+            <div id="footer-about" class="span3">
+                <h1>{{ 'nav.services'|trans }}</h1>
+                <ul>
+                    <li>{{ 'services.birthday'|trans }}</li>
+                    <li>{{ 'services.engagement'|trans }}</li>
+                    <li>{{ 'services.sympathy'|trans }}</li>
+                    <li>{{ 'services.wedding'|trans }}</li>
+                    <li>{{ 'services.new-baby'|trans }}</li>
+                    <li>{{ 'services.get-well'|trans }}</li>
+                    <li>{{ 'services.thank-you'|trans }}</li>
+                </ul>
+            </div>
+
+            <div class="span6 address">
+                <h1>{{ 'nav.contact'|trans }}</h1>
+
+                <p>Blodau'r Cwm,<br />
+                    24 Llandeilo Road,<br />
+                    Cross Hands,<br />
+                    Llanellli. <br />
+                    SA14 6NA.</p>
+
+                <p>{{ 'blodau.tel'|trans }}: 01269 831030</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Le javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="/Bootstrap/jquery.js"></script>
+<script src="/Bootstrap/bootstrap-transition.js"></script>
+<script src="/Bootstrap/bootstrap-dropdown.js"></script>
+<script src="/Bootstrap/bootstrap-carousel.js"></script>
+</body></html>

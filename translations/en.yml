@@ -1,0 +1,46 @@
+blodau:
+  blodau: "Blodau'r Cwm"
+  tagline: "Flowers for every occasion."
+  eflorist: "Blodau'r Cwm is a part of the eFlorist community."
+  tel: 'Tel'
+  shop: 'Shop'
+
+nav:
+  home: 'Home'
+  services: 'Services'
+  gallery: 'Gallery'
+  contact: 'Contact'
+
+index:
+  intro: 'The team at Blodau’r Cwm are very understanding and are willing to arrange sympathy flowers and advise you on funeral tributes. We also cater for many other occasions and we are always happy to help. Please feel free to call in and see us!'
+  history: "Blodau’r Cwm was established over 20 years ago. At Blodau’r Cwm, we specialise in exciting and beautiful creations which aim to convey any message or emotion you would like. Our established team strive to please each and every customer no matter how unique the request."
+
+services:
+  birthday: 'Birthday'
+  engagement: 'Engagement'
+  sympathy: 'Sympathy'
+  wedding: 'Wedding'
+  new-baby: 'New Baby'
+  get-well: 'Get Well:'
+  thank-you: 'Thank You'
+  and-more: '…and many more.'
+
+page-services:
+  delivery: "Our immediate delivery area covers Carmarthenshire although we are prepared to make exceptions. We are also able to relay orders further afield through our colleagues in eFlorist."
+  pay: "We accept phone orders and are able to accept all major credit cards."
+
+page-gallery:
+  intro: "Check back soon for new photos as we frequently add more. Feel free to visit us to have a look or to tell us your needs so we can arrange something specifically for you!"
+  contact-us: "Be sure to check our <a href='/en/contact/'>opening times</a>!"
+
+page-contact:
+  out-of-ours: 'Out of Hours'
+  opening-times: 'Opening Times'
+  closed: 'Closed'
+  monday: 'Monday'
+  tuesday: 'Tuesday'
+  wednesday: 'Wednesday'
+  thursday: 'Thursday'
+  friday: 'Friday'
+  saturday: 'Saturday'
+  sunday: 'Sunday'

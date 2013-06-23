@@ -1,0 +1,29 @@
+{% extends "layout.html.twig" %}
+
+{% block body %}
+<div id="content" class="container-fluid">
+    <div class="row-fluid">
+        <div class="contact span12">
+            <hr />
+            <h1>{{ 'nav.contact'|trans }}</h1>
+            <p><strong>Blodau’r Cwm,<br>
+                </strong>24 Llandeilo Road,<br>
+                Cross Hands,<br>
+                Llanellli,<br>
+                Carmarthenshire,<br>
+                SA14 6NA</p>
+            <p><strong>{{ 'blodau.tel'|trans }}</strong><br>
+                <em>{{ 'blodau.shop'|trans }}: </em>01269 831030<br>
+                <em>{{ 'page-contact.out-of-ours'|trans }}:</em> 01269 841979</p>
+
+            <p><strong>{{ 'page-contact.opening-times'|trans }}</strong><br>
+                <em>{{ 'page-contact.monday'|trans }}</em>: 0900-1700<br>
+                <em>{{ 'page-contact.tuesday'|trans }}</em>: 0900-1700<br>
+                <em>{{ 'page-contact.wednesday'|trans }}</em>: 0900-1700<br>
+                <em>{{ 'page-contact.thursday'|trans }}</em>: 0900-1800<br>
+                <em>{{ 'page-contact.friday'|trans }}</em>: 0900-1800<br>
+                <em>{{ 'page-contact.saturday'|trans }}</em>: 0900-1400<br>
+                <em>{{ 'page-contact.sunday'|trans }}</em>: {{ 'page-contact.closed'|trans }}</p>
+        </div>
+    </div>
+{% endblock %}

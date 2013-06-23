@@ -1,0 +1,296 @@
+/*
+* Steffan Harries Copyright 2012
+* Twitter Bootstrap Tweaks
+*/
+html, body {
+    height: 100%;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+hr {
+    margin: 10px 0;
+    border: 0;
+    border-bottom: 1px solid #45aeea;
+}
+
+#wrapper p {
+    margin: 0 0 20px;
+    line-height: 1.8em;
+}
+
+#eflorist {
+    padding: 10px;
+    float: left;
+}
+
+::selection {
+    background: #45aeea; /* Safari */
+    color: white;
+}
+::-moz-selection {
+    background: #45aeea; /* Firefox */
+    color: white;
+}
+
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+    border-width: 0 0 1px;
+}
+
+.navbar-static-top div.container, footer .container-fluid, #head-inner, #content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.navbar-static-top {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+}
+
+.navbar .brand, .navbar ul li a {
+    text-shadow: 1px 1px 1px black!important;
+}
+
+.navbar ul li ul li a {
+    text-shadow: 0 0 0 black!important;
+}
+
+.span12 {
+    padding: 0!important;
+}
+
+#masthead {
+    background-image: url('http://blodaurcwm.com/wp-content/gallery/examples/img_9418small.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 -70px;
+    background-size: 100%;
+    height: 300px;
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+}
+
+#head {
+    position: absolute;
+    top: 5em;
+    margin-bottom: 0;
+}
+
+#head h1 {
+    font-size: 400%;
+    line-height: 0.8em;
+    color: black;
+    margin-top: 0;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+    margin-right: 0.5em;
+}
+
+#head h1, #head p {
+    color: black;
+    text-shadow: 1px 0px 1px white;
+}
+
+#head p {
+    line-height: 1em;
+    font-size: 180%;
+    font-weight: 500;
+    max-width: 900px;
+    margin-left: 1em;
+    margin-right: 1.5em;
+}
+
+h1 {
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {
+    padding: 5px;
+}
+
+ul#product-list li {
+    font-size: 150%;
+    line-height: 200%;
+}
+
+ul#services li {
+    line-height: 35px;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+li#lastInList {
+    font-weight: normal!important;
+}
+
+div.contact {
+    text-align: center;
+}
+
+#photoCarousel {
+    width: 95%;
+}
+
+#photoCarousel .carousel-inner .carousel-caption {
+    position: relative;
+    background: white;
+    width: 77%;
+    margin: 0 auto;
+}
+
+#photoCarousel .carousel-inner .carousel-caption h4{
+    text-align: center;
+    color: black!important;
+}
+.well ul {
+    margin-left: 0;
+    list-style-type: none;
+}
+.well ul li {
+    margin-top: 1em;
+}
+
+#wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -21.7em;
+}
+
+footer, #push {
+    height: 21em;
+}
+
+footer {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+footer h1, footer h2 {
+    font-size: 1.5em;
+}
+
+footer ul {
+    list-style: disc;
+}
+
+footer ul li {
+    line-height: 1.8em;
+    margin-left: 0;
+}
+
+#header-wrap {
+    padding: 0;
+}
+
+#head-address p {
+    text-align: right;
+}
+.address {
+    text-align: right;
+}
+
+footer #copyright {
+    margin-top: 3.5em;
+    font-size: 85%;
+}
+
+footer a, footer a:active, footer a:visited {
+    color: white;
+}
+
+@media screen and (min-width: 2000px) {
+    #wrapper, footer {
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        padding: 0;
+    }
+
+    #content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #masthead {
+        background-position: 0;
+        background-size: cover;
+    }
+
+    /*#wrapper, footer {*/
+        /*border-left: 1px solid black;*/
+        /*border-right: 1px solid black;*/
+    /*}*/
+
+    #head {
+        top: 4.5em;
+        width: 94%;
+    }
+
+    #head h1 {
+        text-align: center;
+        font-size: 400%;
+        margin: 0;
+    }
+    #head p {
+        text-align: center;
+        font-size: 150%;
+    }
+
+    #head-address {
+        line-height: 1.4em;
+        text-align: left;
+        font-size: 90%;
+    }
+
+    #photoCarousel {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #about, footer .address {
+        text-align: center!important;
+        border-top: 1px dashed #7BC27B;;
+        border-bottom: 1px dashed #7BC27B;
+    }
+
+    footer {
+        font-size: 120%;
+        padding: 0 3em;
+        text-align: center;
+    }
+
+    footer #footer-img {
+        margin: 0 0 -2em 0;
+        padding-bottom: 1em;
+    }
+
+    footer #blodau p {
+        border-top: 1px dashed #7BC27B;
+        padding-top: 1em;
+    }
+
+    footer ul {
+        border-top: 1px dashed #7BC27B;
+        margin: 1em 0em;
+        padding-top: 1em;
+        list-style: none;
+    }
+
+    footer {
+        height: 36em;
+    }
+}

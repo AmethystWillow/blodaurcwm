@@ -1,0 +1,44 @@
+{% extends "layout.html.twig" %}
+
+{% block body %}
+<div id="content" class="container-fluid">
+    <div class="row-fluid">
+        <div class="span6">
+            <hr />
+            <p><img id="eflorist" src="/img/top_logo.jpg" alt="Eflorist logo" />{{ 'index.intro'|trans }}</p>
+            <p>{{ 'index.history'|trans }}</p>
+        </div>
+        <div class="span6">
+            <hr />
+            <p>{{ 'blodau.eflorist'|trans }}</p>
+            <div class="span12">
+                <div id="photoCarousel" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="/img/img_5625.jpg" alt="">
+                            <div class="carousel-caption">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="/img/img_5702.jpg" alt="">
+                            <div class="carousel-caption">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="/img/img_9398small.jpg" alt="">
+                            <div class="carousel-caption">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="/img/img_9410small.jpg" alt="">
+                            <div class="carousel-caption">
+                            </div>
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#photoCarousel" data-slide="prev">‹</a>
+                    <a class="right carousel-control" href="#photoCarousel" data-slide="next">›</a>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

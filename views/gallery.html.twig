@@ -1,0 +1,50 @@
+{% extends "layout.html.twig" %}
+
+{% block body %}
+<div id="content" class="container-fluid">
+    <div class="row-fluid">
+        <div class="span6">
+            <hr />
+            <h1>{{ 'nav.gallery'|trans }}</h1>
+            <p>{{ 'page-gallery.intro'|trans }}</p>
+
+            <div id="photoCarousel" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="/img/img_5625.jpg" alt="Storm Approaching The Fort">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/img/img_5702.jpg" alt="Pontarddulais Agricultural Show">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/img/img_9398small.jpg" alt="Zetor line-up">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/img/img_9410small.jpg" alt="Zetor line-up">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#photoCarousel" data-slide="prev">‹</a>
+                <a class="right carousel-control" href="#photoCarousel" data-slide="next">›</a>
+            </div>
+
+        </div>
+        <div class="span6">
+            <hr />
+            <p>{{ 'page-gallery.contact-us'|trans|raw }}</p>
+            <p style="text-align: center"><strong>Blodau’r Cwm,<br>
+                </strong>24 Llandeilo Road,<br>
+                Cross Hands,<br>
+                Llanellli,<br>
+                Carmarthenshire,<br>
+                SA14 6NA</p>
+        </div>
+    </div>
+{% endblock %}

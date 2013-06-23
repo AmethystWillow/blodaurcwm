@@ -1,0 +1,27 @@
+{% extends "layout.html.twig" %}
+
+{% block body %}
+<div id="content" class="container-fluid">
+    <div class="row-fluid">
+        <div class="span6">
+            <hr />
+            <h1>{{ 'nav.services'|trans }}</h1>
+
+            <p>{{ 'page-services.delivery'|trans }}</p>
+            <p>{{ 'page-services.pay'|trans }}</p>
+        </div>
+        <div class="span6">
+            <hr />
+            <ul id="services">
+                <li>{{ 'services.birthday'|trans }}</li>
+                <li>{{ 'services.engagement'|trans }}</li>
+                <li>{{ 'services.sympathy'|trans }}</li>
+                <li>{{ 'services.wedding'|trans }}</li>
+                <li>{{ 'services.new-baby'|trans }}</li>
+                <li>{{ 'services.get-well'|trans }}</li>
+                <li>{{ 'services.thank-you'|trans }}</li>
+                <li id="lastInList">{{ 'services.and-more'|trans }}</li>
+            </ul>
+        </div>
+    </div>
+{% endblock %}
