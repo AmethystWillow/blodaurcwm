@@ -10,7 +10,6 @@ ExceptionHandler::register(false);
 $app = new Silex\Application();
 //$app['debug'] = true;
 $app->register(new Silex\Provider\UrlGeneratorServiceProvider());
-$app->register(new Silex\Provider\TranslationServiceProvider(), array());
 $app->register(new Silex\Provider\SessionServiceProvider());
 
 $app['session']->start();
@@ -25,6 +24,12 @@ $locale = function() use ($app) {
     $request_tokens = explode('/', $path);
     $locale = in_array($request_tokens[1], $app['app_allowed_locales']) ? $request_tokens[1] : null;
     $localeFromSession = $app['session']->get('locale');
+
+    $isRootUriWithQuery = preg_match('/\?/', $path = $_SERVER['REQUEST_URI']);
+
+    if ($isRootUriWithQuery == 1 || $path == '/') {
+        return $app->redirect('/en/', 301);
+    }
 
     if (null == $locale) {
         $app->abort(404, 'Sorry, the page you are looking for could not be found.');
@@ -55,7 +60,7 @@ $app->register(new Silex\Provider\TwigServiceProvider(), array(
 ));
 
 $app->get('/', function() use($app) {
-    return $app['twig']->render('index.html.twig', array ());
+    return $app->redirect('/en/', 301);
 });
 
 $app->get('/{_locale}/', function() use($app) {
