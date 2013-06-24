@@ -61,7 +61,7 @@ hr {
 }
 
 #masthead {
-    background-image: url('http://blodaurcwm.com/wp-content/gallery/examples/img_9418small.jpg');
+    background-image: url('/img/img_9418small.jpg');
     background-repeat: no-repeat;
     background-position: 0 -70px;
     background-size: 100%;
